@@ -1,5 +1,2 @@
-#!/bin/bash
-
-# This script runs the python file named pointer.py in the same directory.
-
+pip install pyautogui
 python pointer.py

@@ -18,6 +18,7 @@ def move_cursor(interval_seconds=5):
             time.sleep(interval_seconds+random.uniform(-1,1))
     except KeyboardInterrupt:
         print("Exited")
+        time.sleep(interval_seconds)
 
 if __name__=="__main__":
     move_cursor(2)
